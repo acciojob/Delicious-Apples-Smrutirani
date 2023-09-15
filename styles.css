@@ -1,1 +1,62 @@
 /* your code here */
+body{
+	background-color: springgreen;
+}
+.product{
+	display: flex;
+	justify-contain:center;
+	background-color: white;
+	border-radius: 5px;
+	width: 600px;
+	height:580px;
+	margin-left: 100px;
+}
+.product__photo{
+/* 	border-radius: 5px; */
+/* 	transform: translate3d(-50px, 30px, 100px); */
+}
+.photo-container{
+	background-color: white;
+	width: 300px;
+	transform: translate(-40px, 35px);
+	border-radius: 5px;
+/* 	height: 100px; */
+}
+.photo-main{
+	background-color: greenyellow;
+/* 	width: 50%; */
+	border-radius: 5px;
+}
+.controls{
+	text-align: right;
+	color: white;
+}
+.photo-album>ul{
+	display:flex;
+	list-style-type: none;
+	padding:20px;
+/* 	width:50%; */
+}
+#photo-b>li{
+	border: 1px solid lightgray;
+	margin: 5px;
+	padding:4px;
+	border-radius: 4px;
+}
+.product__info{
+	margin-left: 20px;
+	justify-contain: space-between;
+/* 	width:60%; */
+}
+.variant>ul{
+	display:flex;
+	list-style-type: none;
+}
+button{
+	background-color: orangered;
+	color: white;
+	border: 1px orangered;
+	border-radius: 5px;
+	padding: 10px;
+	position: pointer;
+}
